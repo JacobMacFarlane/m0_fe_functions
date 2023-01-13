@@ -22,20 +22,19 @@ estimatedPay("Dunder Mifflin", "70000", "180000")
 
 // 4: Write a function that satifies the following interaction pattern:
 function checkStock(amount, item) {
-    if (amount === 0) {
+  if (amount === 0) {
     console.log(`"${item}- OUT of stock!"`)
   } else if 
     (amount >= 4) {
     console.log(`"${item} is stocked"`)
-  } else if
-    (amount < 4) {
+  } else if {
     console.log(`"${item} - running LOW"`)
   }
   }
-  checkStock(4, "Coffee")
-  checkStock(3, "Tortillas")
-  checkStock(0, "Cheese");
-  checkStock(1, "Salsa");
+checkStock(4, "Coffee");
+checkStock(3, "Tortillas");
+checkStock(0, "Cheese");
+checkStock(1, "Salsa");
 checkStock(4, "Coffee");
 // => "Coffee is stocked"
 
