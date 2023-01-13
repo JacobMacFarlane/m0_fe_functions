@@ -11,7 +11,7 @@
 function nameQuestion() {
   console.log("Hello, what is your name?");
 }
-nameQuestion()
+nameQuestion();
 // For example 1 i added a semi colon to the end of line 12 to practice good habits
 
 // EX 2:
@@ -48,7 +48,7 @@ function average(num1, num2) {
    console.log(`the average is: ${avg}.`);
 }
 
-average()
+average(87, 23);
 // For example 4 I started by moving the first curly bracket up to the end of line 45 with a space seperating it from the parenthesis
 // then i indented line 46 so that the innards of the function could look cleaner
 // next i deleted the line that was seperating 48 and 47 so the the block of code could all be together
